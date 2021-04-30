@@ -1,24 +1,3 @@
-# README
+# Customer Support App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application was made using Ruby on Rails, Hotwire, and ActionMailbox, following along with [the tutorial from GoRails](https://gorails.com/episodes/rails-hotwire-actionmailbox-part-1)
