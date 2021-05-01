@@ -7,8 +7,13 @@
 
 <p>
   <strong>Contact:</strong>
-  <%= @conversation.contact_id %>
+  <%= link_to @conversation.contact.name, @conversation.contact %>
 </p>
 
 <%= link_to 'Edit', edit_conversation_path(@conversation) %> |
 <%= link_to 'Back', conversations_path %>
+
+<%= turbo_stream_from @conversation %>
+<div id="posts">
+  <%= render @posts %>
+</div>
